@@ -1,0 +1,69 @@
+
+# Project Features:-
+
+> various items to sell
+> show detail of each item
+> login feature to users & admin
+> different ways to sort or show item
+> perform CRUD operations 
+> allow user to add items to cart 
+> user must be able to purchase item
+
+############################
+
+# Item Properties
+
+> item_id ( primary key )
+> brand 
+> category (mobile,watch,glasses)
+> model_name 
+> price 
+> image
+
+############################
+
+# User 
+
+> user_id  ( primary key )
+> user_name
+> email    
+> contact
+> gender
+> address
+> password
+
+###########################
+
+# Carts ( User purchasing items , each will be unique for each user )
+
+> cart_id ( same as user_id , foreign key)
+> item_id
+> add_date
+> add_time
+
+###########################
+
+# Orders ( orders received by admin )
+
+> order_id
+> user_id
+> item_id
+> order_date 
+> order_time	
+
+###########################
+
+# Counter ( count of everything )
+
+> id (primary key)
+> user_count
+> item_count
+> order_count
+
+
+*********************** Classess ***************************
+>> counters
+>> orders
+>> items
+>> users
+>> carts

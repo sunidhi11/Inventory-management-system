@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+.product{
+background-color:white;
+border:1px solid pink;
+margin:1px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e39191;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+    padding-right:10px;
+    padding-left:100px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
